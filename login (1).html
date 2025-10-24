@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pro Login Dashboard</title>
+  <div class="hello">
+  <centre>
+    <h1>LOGIN AUTHENTICATION SYSTEM</h1>
+  </centre>
+  </div>
+  <link rel="stylesheet" href="system.css">
+</head>
+<body>
+  <!-- Authentication Container -->
+  <div id="authContainer" class="auth-container">
+    <div class="auth-box">
+      <h1 id="formTitle">Sign Up</h1>
+      <form id="authForm">
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit" id="submitBtn">Sign Up</button>
+      </form>
+      <p id="toggleText">Already have an account? <span id="toggleLink">Login</span></p>
+    </div>
+  </div>
+
+  <!-- Dashboard Container -->
+  <div id="dashboardContainer" class="dashboard-container">
+    <div class="dashboardContent">
+      <h1>Welcome, <span id="userDisplay"></span>!</h1>
+      <button id="logoutBtn">Logout</button>
+    </div>
+    <canvas id="animationCanvas"></canvas>
+  </div>
+
+  <script src="project.js"></script>
+</body>
+</html>
