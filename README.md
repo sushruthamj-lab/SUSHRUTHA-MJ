@@ -1,6 +1,8 @@
-# login authentication system
+login authentication system
+ 
+ login authentication system is a simple and interactive web app that providing login and signup functionality and it built using*HTML,CSS,and javascript*,it provide smooth and efficient
 
-##⚡ Features
+⚡ Features 
 
 📝 User signup with email and password
 
@@ -11,7 +13,7 @@
 🔄 Option for password reset
 
 
-##📝 Overview
+📝 Overview
 
 Users can sign up with their email and password. The system hashes passwords for security. Users can log in using their credentials. ✅
 
@@ -33,4 +35,4 @@ IDE: Visual Studio Code
 
 5. 🛡️ Sessions and security measures protect user data.
 
- ##🌐 Domain https://sushruthamj-lab.github.io/SUSHRUTHA-MJ/
+ 🌐 Domain https://sushruthamj-lab.github.io/SUSHRUTHA-MJ/
