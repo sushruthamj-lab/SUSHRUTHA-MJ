@@ -23,7 +23,7 @@ Frontend: HTML, CSS, JavaScript
 
 IDE: Visual Studio Code
 
- ##👾 How it works
+👾 How it works
 
 1. 📝 Users sign up with email and password, which is hashed 🔒 for security.
 
